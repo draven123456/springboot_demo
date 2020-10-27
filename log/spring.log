@@ -1,0 +1,66 @@
+2018-04-27 10:50:53.127  INFO 11472 --- [main] com.draven.demo.DemoApplication          : Starting DemoApplication on zr_chenwh with PID 11472 (E:\draven_project\demo\target\classes started by tqbb in E:\draven_project\demo)
+2018-04-27 10:50:53.129  INFO 11472 --- [main] com.draven.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2018-04-27 10:50:53.182  INFO 11472 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c0e1d9e: startup date [Fri Apr 27 10:50:53 CST 2018]; root of context hierarchy
+2018-04-27 10:50:54.098  INFO 11472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-27 10:50:54.530  INFO 11472 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$247cac42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:50:55.041  INFO 11472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-04-27 10:50:55.070  INFO 11472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-27 10:50:55.071  INFO 11472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-27 10:50:55.175  INFO 11472 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-27 10:50:55.176  INFO 11472 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1995 ms
+2018-04-27 10:50:55.320  INFO 11472 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 10:50:55.325  INFO 11472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 10:50:55.325  INFO 11472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 10:50:55.325  INFO 11472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-27 10:50:55.325  INFO 11472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-27 10:50:56.458  INFO 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c0e1d9e: startup date [Fri Apr 27 10:50:53 CST 2018]; root of context hierarchy
+2018-04-27 10:50:56.573  INFO 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getName]}" onto public java.lang.String com.draven.demo.controller.UserController.getName(java.lang.String) throws java.lang.Exception
+2018-04-27 10:50:56.575  INFO 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getName2]}" onto public java.lang.String com.draven.demo.controller.UserController.getName2()
+2018-04-27 10:50:56.577  INFO 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 10:50:56.577  INFO 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-27 10:50:56.617  INFO 11472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:50:56.617  INFO 11472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:50:56.654  INFO 11472 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in demoException
+2018-04-27 10:50:56.697  INFO 11472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:50:57.278  INFO 11472 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-27 10:50:57.388  INFO 11472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-04-27 10:50:57.396  INFO 11472 --- [main] com.draven.demo.DemoApplication          : Started DemoApplication in 4.675 seconds (JVM running for 4.935)
+2018-04-27 10:51:36.080  INFO 11472 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 10:51:36.080  INFO 11472 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 10:51:36.099  INFO 11472 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-04-27 10:51:36.133  INFO 11472 --- [http-nio-8081-exec-1] com.draven.demo.exception.DemoException  : code:400
+2018-04-27 10:51:36.133  WARN 11472 --- [http-nio-8081-exec-1] com.draven.demo.exception.DemoException  : msg:id为空
+2018-04-27 10:51:36.133 ERROR 11472 --- [http-nio-8081-exec-1] com.draven.demo.exception.DemoException  : url:http://localhost:8081/getName
+2020-10-22 10:59:46.853  INFO 2012 --- [main] com.draven.demo.DemoApplication          : Starting DemoApplication on DESKTOP-KF73U5E with PID 2012 (E:\diy_project\demo\target\classes started by draven in E:\diy_project\demo)
+2020-10-22 10:59:46.858  INFO 2012 --- [main] com.draven.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2020-10-22 10:59:47.002  INFO 2012 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@101df177: startup date [Thu Oct 22 10:59:46 CST 2020]; root of context hierarchy
+2020-10-22 10:59:47.903  INFO 2012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-22 10:59:48.238  INFO 2012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edfe9047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-22 10:59:49.148  INFO 2012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2020-10-22 10:59:49.186  INFO 2012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 10:59:49.187  INFO 2012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-10-22 10:59:49.295  INFO 2012 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 10:59:49.295  INFO 2012 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2298 ms
+2020-10-22 10:59:49.430  INFO 2012 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-10-22 10:59:49.435  INFO 2012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-22 10:59:49.436  INFO 2012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-22 10:59:49.437  INFO 2012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-22 10:59:49.437  INFO 2012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-22 10:59:50.632  INFO 2012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@101df177: startup date [Thu Oct 22 10:59:46 CST 2020]; root of context hierarchy
+2020-10-22 10:59:50.681  INFO 2012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getName]}" onto public java.lang.String com.draven.demo.controller.UserController.getName(java.lang.String) throws java.lang.Exception
+2020-10-22 10:59:50.682  INFO 2012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getName2]}" onto public java.lang.String com.draven.demo.controller.UserController.getName2()
+2020-10-22 10:59:50.683  INFO 2012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-10-22 10:59:50.684  INFO 2012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-10-22 10:59:50.709  INFO 2012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-22 10:59:50.709  INFO 2012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-22 10:59:50.722  INFO 2012 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in demoException
+2020-10-22 10:59:50.739  INFO 2012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-22 10:59:51.025  INFO 2012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-10-22 10:59:51.060  INFO 2012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2020-10-22 10:59:51.064  INFO 2012 --- [main] com.draven.demo.DemoApplication          : Started DemoApplication in 5.315 seconds (JVM running for 7.247)
+2020-10-22 11:00:24.144  INFO 2012 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-10-22 11:00:24.145  INFO 2012 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-10-22 11:00:24.178  INFO 2012 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2020-10-22 11:01:20.306  INFO 2012 --- [http-nio-8081-exec-3] com.draven.demo.exception.DemoException  : code:400
+2020-10-22 11:01:20.307  WARN 2012 --- [http-nio-8081-exec-3] com.draven.demo.exception.DemoException  : msg:id为空
+2020-10-22 11:01:20.307 ERROR 2012 --- [http-nio-8081-exec-3] com.draven.demo.exception.DemoException  : url:http://localhost:8081/getName
